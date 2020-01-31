@@ -1,7 +1,6 @@
-# Table of contents
+# 目次
 
-- [Introduction](README.md)
-
+- [はじめに](README.md)
 ## Learn RxJS
 
 - [Operators](operators/README.md)

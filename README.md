@@ -1,51 +1,45 @@
-# Introduction
+# はじめに
 
-Clear examples, explanations, and resources for RxJS.
+RxJSの明確な例、説明、およびリソース。
 
 _By_ [_@btroncone_](https://twitter.com/BTroncone)
 
-## Introduction
+## 序章
 
-[RxJS](https://github.com/ReactiveX/rxjs) is one of the hottest libraries in web
-development today. Offering a powerful, functional approach for dealing with
-events and with integration points into a growing number of frameworks,
-libraries, and utilities, the case for learning Rx has never been more
-appealing. Couple this with the ability to utilize your knowledge across
-[nearly any language](http://reactivex.io/languages.html), having a solid grasp
-on reactive programming and what it can offer seems like a no-brainer.
+[RxJS](https://github.com/ReactiveX/rxjs) は、現在の Web 開発で最もホットなライブラリの1つです。
+イベントを処理するための強力で機能的なアプローチを提供し、
+より多くのフレームワーク、ライブラリ、およびユーティリティへの統合ポイントを提供することで、
+Rx を学習するケースはかつてないほど魅力的になりました。
+これを[ほぼすべての言語](http://reactivex.io/languages.html)で知識を活用する機能と組み合わせて、
+リアクティブプログラミングをしっかりと把握し、何が提供できるかは簡単に思えます。
 
-**But...**
+**しかし...**
 
-Learning RxJS and reactive programming is
-[hard](https://twitter.com/hoss/status/742643506536153088). There's the
-multitude of concepts, large API surface, and fundamental shift in mindset from
-an
-[imperative to declarative style](https://tylermcginnis.com/imperative-vs-declarative-programming/).
-This site focuses on making these concepts approachable, the examples clear and
-easy to explore, and features references throughout to the best RxJS related
-material on the web. The goal is to supplement the
-[official docs](http://reactivex.io/rxjs/) and pre-existing learning material
-while offering a new, fresh perspective to clear any hurdles and tackle the pain
-points. Learning Rx may be difficult but it is certainly worth the effort!
+RxJS とリアクティブプログラミングの学習は[困難](https://twitter.com/hoss/status/742643506536153088)です。
+多数の概念、大きな API サーフェス、および[命令型から宣言型](https://tylermcginnis.com/imperative-vs-declarative-programming/)への考え方の根本的な変化があります。
+このサイトはこれらの概念を親しみやすくすること、例が明確で簡単に探求できることに焦点を当てており、
+Web 上の最高の RxJS 関連資料への参照を提供しています。
+目標は、[公式ドキュメント](http://reactivex.io/rxjs/)と既存の学習教材を補完すると同時に、
+ハードルを解消し、問題点に取り組むための新しい新鮮な視点を提供することです。
+Rx の学習は難しいかもしれませんが、努力する価値はあります。
 
 [![Ultimate RxJS](https://drive.google.com/uc?export=view&id=1htrban3k3Z8CxiKwEV6bdmxW5Wu8xdWX)](https://ultimatecourses.com/courses/rxjs?ref=4)
 
-### Brand New to RxJS?
+### RxJS が初めてですか？
 
-Start getting familiar with all the key concepts needed to be productive with
-our [RxJS Primer](/concepts/rxjs-primer.md)!
+[RxJS Primer](/concepts/rxjs-primer.md) の生産性を高めるために必要なすべての重要な概念を理解してください！
 
-## Content
+## コンテンツ
 
 #### Operators
 
-Operators are the horse-power behind observables, providing an elegant,
-declarative solution to complex asynchronous tasks. This section contains all
-[RxJS operators](/operators/README.md), included with clear, executable
-examples. Links to additional resources and recipes for each operator are also
-provided, when applicable.
+OOperators は observables の背後にある馬力であり、
+複雑な非同期タスクにエレガントで宣言的なソリューションを提供します。
+このセクションにはすべての [RxJS operators](/operators/README.md)が含まれており、
+明確で実行可能な例が含まれています。
+該当する場合、各オペレーターの追加リソースおよびレシピへのリンクも提供されます。
 
-##### Operator Categories
+##### Operator カテゴリー
 
 - [Combination](/operators/combination/README.md)
 - [Conditional](/operators/conditional/README.md)
@@ -56,36 +50,34 @@ provided, when applicable.
 - [Transformation](/operators/transformation/README.md)
 - [Utility](/operators/utility/README.md)
 
-**OR...**
+**もしくは...**
 
 [Complete listing in alphabetical order](/operators/complete.md)
 
-#### Understanding Subjects
+#### Subject を理解する
 
-A Subject is a special type of Observable which shares a single execution path
-among observers.
+Subject は、observer 間で単一の実行パスを共有する特別なタイプの Observable です。
 
-- [Overview](/subjects/README.md)
+- [概要](/subjects/README.md)
 - [AsyncSubject](/subjects/asyncsubject.md)
 - [BehaviorSubject](/subjects/behaviorsubject.md)
 - [ReplaySubject](/subjects/replaysubject.md)
 - [Subject](/subjects/subject.md)
 
-#### Concepts
+#### コンセプト
 
-Without a solid base knowledge of how Observables work behind the scenes, it's
-easy for much of RxJS to feel like 'magic'. This section helps solidify the
-major concepts needed to feel comfortable with reactive programming and
-Observables.
+Observables が裏でどのように機能するかについてしっかりとした基礎知識がなければ、
+RxJS の多くが「魔法」のように感じるのは簡単です。
+このセクションは、リアクティブプログラミングと Observable に慣れるために必要な主要な概念を固めるのに役立ちます。
 
 - [RxJS Primer](/concepts/rxjs-primer.md)
 - [Get started transforming streams with map, pluck, and mapTo](/concepts/get-started-transforming.md)
 - [Time based operators comparison](/concepts/time-based-operators-comparison.md)
 - [RxJS v5 -> v6 Upgrade](/concepts/rxjs5-6.md)
 
-#### Recipes
+#### レシピ
 
-Recipes for common use-cases and interesting solutions with RxJS.
+RxJS を使用した一般的な使用例と興味深いソリューションのレシピ。
 
 - [Alphabet Invasion Game](/recipes/alphabet-invasion-game.md)
 - [Battleship Game](/recipes/battleship-game.md)
@@ -113,14 +105,14 @@ Recipes for common use-cases and interesting solutions with RxJS.
 - [Type Ahead](/recipes/type-ahead.md)
 - [Uncover Image Game](/recipes/uncover-image-game.md)
 
-## Introductory Resources
+## 入門資料
 
-New to RxJS and reactive programming? In addition to the content found on this
-site, these excellent resources will help jump start your learning experience!
+RxJS とリアクティブプログラミングは初めてですか？ このサイトにあるコンテンツに加えて、
+これらの優れたリソースは学習体験をすぐに始めるのに役立ちます！
 
-#### Conferences
+#### カンファレンス
 
-- [RxJS Live](https://www.rxjs.live/) - RxJS specific conference
+- [RxJS Live](https://www.rxjs.live/) - RxJSに焦点をあてたカンファレンス
 
 #### Reading
 
@@ -133,7 +125,7 @@ site, these excellent resources will help jump start your learning experience!
 - [RxJS: Observables, Observers and Operators Introduction](https://ultimatecourses.com/blog/rxjs-observables-observers-operators) -
   Todd Motto
 
-#### Videos
+#### ビデオ
 
 - [Ultimate RxJS](https://ultimatecourses.com/courses/rxjs?ref=4) 💵 - Brian
   Troncone
@@ -154,12 +146,12 @@ site, these excellent resources will help jump start your learning experience!
 - [Reactive Programming using Observables](https://www.youtube.com/watch?v=HT7JiiqnYYc&feature=youtu.be) -
   Jeremy Lund
 
-#### Exercises
+#### エクササイズ
 
 - [Functional Programming in JavaScript](http://reactivex.io/learnrx/) - Jafar
   Husain
 
-#### Tools
+#### ツール
 
 - [Rx Marbles - Interactive diagrams of Rx Observables](http://rxmarbles.com/) -
   André Staltz
@@ -173,17 +165,18 @@ site, these excellent resources will help jump start your learning experience!
 - [Rx Visualization - Visualizes programming with RxJS](https://fingerpich.github.io/rx-visualization/) -
   Mojtaba Zarei
 
-_Interested in RxJS 4? Check out_
+_RxJS 4 に興味がありますか？ Check out_
 [_Denis Stoyanov's_](https://github.com/xgrommx) _excellent_
 [_eBook_](https://xgrommx.github.io/rx-book/)_!_
 
-## Translations
+## 翻訳
 
 - [简体中文](https://rxjs-cn.github.io/learn-rxjs-operators)
 
-### A Note On References
+### 参照に関する注意
 
-All references included in this GitBook are resources, both free and paid, that
-helped me tremendously while learning RxJS. If you come across an article or
-video that you think should be included, please use the _edit this page_ link in
-the top menu and submit a pull request. Your feedback is appreciated!
+この GitBook に含まれるすべての参考資料は、無料と有料の両方があり、
+RxJS を学習する際に非常に役立ちました。
+含めるべきだと思う記事やビデオに出会った場合は、
+トップメニューの _このページを編集_ リンクを使用してプルリクエストを送信してください。
+あなたのフィードバックは大歓迎です！
